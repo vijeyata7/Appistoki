@@ -1,0 +1,35 @@
+
+<isprint value="${pdict.heading}" encoding="off"/>
+
+<isif condition = "${!session.customerAuthenticated}">
+
+Please <a href="${URLUtils.url('Login-Show')}">login</a> to post a comment.
+</isif>
+
+<br/>
+<isif condition = "${session.customerAuthenticated}">
+
+Post a comment.<br/>
+<textarea>
+
+
+</textarea>
+
+</isif>
+<br/>
+
+<isloop items="${[1, 2, 3, 4, 5]}" var="star">
+    <i class="fa
+        <isif condition="${true}">
+            fa-star
+        <iselseif condition="${true}">
+            fa-star-half-o
+        <iselse>
+            fa-star-o
+        </isif>
+        " aria-hidden="true">
+    </i>
+</isloop>
+
+
+

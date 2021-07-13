@@ -1,0 +1,19 @@
+{
+  "name": "Recipe Ratings",
+  "description": "This is a component for recipe ratings",
+  "group": "commerce_assets",
+  "attribute_definition_groups": [
+    {
+      "id": "recipe_rating",
+      "attribute_definitions": [
+        {
+          "id": "heading",
+          "name": "Text Overlay",
+          "type": "markup",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "region_definitions": []
+}

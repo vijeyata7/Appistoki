@@ -1,0 +1,22 @@
+{
+    "name": "Recipe Product Tile",
+    "description": "This is the Recipe Product Tile component",
+    "group": "commerce_assets",
+    "attribute_definition_groups": [
+    {
+      "id": "recipeProduct",
+      "name": "Shop The Look Specification",
+      "description": "Specify the shop the look for Set or Product",
+      "attribute_definitions": [
+        {
+          "id": "product",
+          "name": "product",
+          "description": "Select the product SKU to be displayed.",
+          "type": "product",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "region_definitions": []
+}

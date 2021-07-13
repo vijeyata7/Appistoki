@@ -1,0 +1,31 @@
+{
+  "name": "Recipe Image With Text",
+  "description": "This is a component combined image with text",
+  "group": "commerce_assets",
+  "attribute_definition_groups": [
+    {
+      "id": "ITCImage",
+      "attribute_definitions": [
+        {
+          "id": "image",
+          "name": "Image",
+          "type": "image",
+          "required": true
+        },  
+        {
+          "id": "ITCText",
+          "name": "Text Below Image",
+          "type": "markup",
+          "required": false
+        },
+        {
+          "id": "recipeimage",
+          "name": "Image",
+          "type": "image",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "region_definitions": []
+}
